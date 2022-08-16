@@ -1,0 +1,45 @@
+:root {
+  --baby-powder: #f7f7f2;
+  --lavender-blush: #F8E5EE
+  --pale-spring-bud: #e4e6c3;
+  --artichoke: #899878;
+  --charleston-green: #222725;
+  --smoky-black: #121113;
+  --independence: #394053;
+}
+
+html,body {
+  font-family: "Poppins";
+  margin: auto; 
+  overflow-y: scroll;
+  scrollbar-width: none;
+}
+
+html::-webkit-scrollbar, 
+body::-webkit-scrollbar {
+  display: none;
+}
+
+svg {
+  filter: drop-shadow(3px 5px 2px rgba(255, 153, 153, 0.712));
+}
+
+.main-section {
+  height: 100vh;
+  width: 100vw;
+}
+
+.canvas {
+	position: absolute; 
+	top: 0; 
+	left: 0; 
+	z-index: 0; 
+	width: 100vw; 
+	height: 100vh;
+}
+
+.animation {
+  background-color: #303149;
+  height: 100vh;
+  width: 100vw;
+}
